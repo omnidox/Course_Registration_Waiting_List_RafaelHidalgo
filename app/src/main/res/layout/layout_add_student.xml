@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <TextView android:id="@+id/new_student_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:lineSpacingExtra="10sp"
+        android:text="New Student"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint=" Student Name "
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint=" Student Email "
+        android:inputType="textCapSentences|textMultiLine"
+        android:lines="4"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:hint=" Current Year "
+        android:lines="3"
+        android:textSize="16sp" />
+
+<!--    <RadioGroup-->
+<!--        android:id="@+id/level"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/graduate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="top"-->
+<!--            android:text="Graduate"-->
+<!--            android:lines="4"-->
+<!--            android:textSize="16sp"-->
+<!--            android:checked="true"/>-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/senior"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="top"-->
+<!--            android:text="Senior"-->
+<!--            android:lines="4"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/junior"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="top"-->
+<!--            android:text="Junior"-->
+<!--            android:lines="4"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/sophomore"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="top"-->
+<!--            android:text="Sophomore"-->
+<!--            android:lines="4"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <RadioButton-->
+<!--            android:id="@+id/freshman"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@android:color/transparent"-->
+<!--            android:gravity="top"-->
+<!--            android:text="Freshman"-->
+<!--            android:lines="4"-->
+<!--            android:textSize="16sp" />-->
+<!--    </RadioGroup>-->
+
+
+</LinearLayout>
